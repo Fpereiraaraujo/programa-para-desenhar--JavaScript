@@ -35,7 +35,7 @@ function reposition(e){
     position.y = e.clientY - canvas.offsetTop;
 }
 function  draw(e){
-    ctx.beginPath();
+    ctx.beginPath();    
     ctx.lineWidth = lineWidth;
     ctx.lineCap = "round";  
     ctx.strokeStyle = color;
